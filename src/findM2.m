@@ -43,3 +43,4 @@ end
 
 save('q2_5.mat', 'M1', 'M2', 'pts1' ,'pts2', 'P', 'error');
 
+clearvars -except M1 M2 pts1 pts2 P error im1 im2 F E K1 K2
