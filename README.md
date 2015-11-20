@@ -15,13 +15,13 @@ Eight point algorithm implementation.
 Seven point algorithm implementation.
 
 src/essentialMatrix.m<br>
-Converts Fundamental matrix into Essential matrix using two camera intrinsic matrices.
+Converts Fundamental matrix into the Essential matrix using two camera intrinsic matrices.
 
 src/camera2.m<br>
 Creates four possible extrinsic matrices of camera-2 using the Essential matrix.
 
 src/triangulate.m<br>
-Triangulates and creates 3D points using two camera matrices and correpondence points.
+Triangulates and creates 3D points using two camera matrices and correspondence points.
 
 src/findM2.m<br>
 Chooses the right camera matrix that estimates 3D points with all positive z-index.
